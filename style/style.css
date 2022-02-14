@@ -11,6 +11,10 @@ body {
 
 .sony_bar {
     background-color: black;
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    z-index: 15;
 }
 
 .sony_col {
@@ -28,7 +32,6 @@ body {
 /*Nav Bar*/
 
 nav {
-    margin-top: 1.7em;
     background-color: white;
 }
 
@@ -75,4 +78,14 @@ nav {
  .acquista_button {
     border-radius: 0;
     border-radius: 30px;
+ }
+
+
+ /*MAIN*/
+
+ /*Sezione 1*/
+
+ .section_1_img {
+     width: 100%;
+     border-radius: 20px;
  }
