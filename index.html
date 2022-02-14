@@ -33,10 +33,13 @@
 
         </div>
 
+
         <!--Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+
             <div class="container-fluid">
+
               <a class="navbar-brand" href="#!">
                   <img src="img/play_logo.svg" alt="PlayStation Logo">
               </a>
@@ -44,6 +47,8 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                  <!--START-->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   
                   <li class="nav-item dropdown">
@@ -117,28 +122,41 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      My PlayStation
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
                 </ul>
 
-                <button type="button" class="btn btn-dark accedi_button">Accedi</button>
-                <a class="search_link" href="#!">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
+                <!--END-->
+                <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end align-items-center">
+
+                    <li class="nav-item dropdown my_ps_link">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My PlayStation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item">
+                        <button type="button" class="btn btn-dark accedi_button">Accedi</button>
+                      </li>
+
+                      <li class="nav-item search_link">
+                        <a class="nav-link active" href="#!">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                      </li>
+
+                </ul>
                 
               </div>
             </div>
           </nav>
+
+          
+          <!--Corpo Header-->
 
 
 
