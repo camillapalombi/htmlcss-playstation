@@ -63,10 +63,8 @@ nav {
  }
 
  .col_title {
-     font-size: 35px;
-     line-height: 0;
-     line-height: 1.2em;
- }
+    font-size: 35px;
+}
 
 
  /*MAIN*/
@@ -145,4 +143,11 @@ nav {
 .section_4_main img {
     width: 100%;
     border-radius: 20px;
+}
+
+
+/*Sezione 5*/
+
+.ps4_row img {
+    width: 100%;
 }
