@@ -94,3 +94,12 @@ nav {
 .fixings_ps5 img {
     width: 100%;
 }
+
+.fixings_ps5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.fixings_ps5 .col-4:hover {
+    border-bottom: 3px solid rgb(1, 90, 255);
+}
