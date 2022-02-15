@@ -16,6 +16,7 @@ body {
 .sony_bar {
     background-color: black;
     height: 36px;
+    z-index: 9999;
 }
 
 .sony_logo {
@@ -29,9 +30,7 @@ body {
 
 nav {
     background-color: white;
-    position: sticky;
-    top: 0;
-    bottom: auto;
+    margin-top: 36px;
 }
 
  header .search_link {
