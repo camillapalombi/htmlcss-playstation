@@ -14,11 +14,6 @@ body {
     height: 36px;
 }
 
-.sony_col {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .sony_logo {
     width: 90px;
     padding: 8px 0;
@@ -40,15 +35,8 @@ nav {
  }
 
  .search_link {
-     margin-left: 35px;
      margin-right: 15px;
      font-size: 20px;
- }
-
- .accedi_button {
-     border-radius: 0;
-     border-radius: 30px;
-     margin-left: 35px;
  }
 
 
@@ -72,11 +60,6 @@ nav {
 
  .col_title {
      font-size: 35px;
- }
-
- .radius_button {
-    border-radius: 0;
-    border-radius: 30px;
  }
 
 
