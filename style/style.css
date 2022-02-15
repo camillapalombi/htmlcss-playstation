@@ -43,7 +43,6 @@ nav {
  /*Corpo Header*/
 
  .header_bg {
-     height: 100vh;
      background-image: url(../img/jumbo-bg.png);
      background-repeat: no-repeat;
      background-size: cover;
@@ -55,11 +54,14 @@ nav {
  }
 
  .container_title {
-     padding-top: 300px;
+    padding-top: 270px;
+    padding-bottom: 70px;
  }
 
  .col_title {
      font-size: 35px;
+     line-height: 0;
+     line-height: 1.2em;
  }
 
 
@@ -71,6 +73,7 @@ nav {
      width: 100%;
      border-radius: 20px;
  }
+
 
  /*Sezione 2*/
 
@@ -102,4 +105,28 @@ nav {
 
 .fixings_ps5 .col-4:hover {
     border-bottom: 3px solid rgb(1, 90, 255);
+}
+
+
+/*Sezione 3*/
+
+.section_3_main {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.takes_two_logo {
+    width: 300px;
+}
+
+.container_row {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.btn-danger {
+    background-color: none;
+    background-color: rgb(212, 57, 0);
 }
