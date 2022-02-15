@@ -88,7 +88,7 @@ nav {
  }
 
  .text_grey {
-     color: grey;
+     color: rgba(121,121,121,255);
  }
 
  /*Bottom*/
@@ -130,14 +130,14 @@ nav {
 
 .btn-danger {
     background-color: none;
-    background-color: rgb(212, 57, 0);
+    background-color: rgba(196,58,14,255);
 }
 
 
 /*Sezione 4*/
 
 .section_4_main {
-    background-color: rgb(32, 32, 32);
+    background-color: rgba(31,31,31,255);
 }
 
 .section_4_main img {
@@ -156,7 +156,7 @@ nav {
 /*Sezione 6*/
 
 .section_6_main {
-    background-color: rgb(175, 175, 175);
+    background-color: rgba(190,188,187,255);
 }
 
 .ps_plus_now_logo {
@@ -174,7 +174,7 @@ nav {
 /*Sezione 8*/
 
 .section_8_main {
-    background-color: rgb(11, 11, 56);
+    background-color: rgba(22,28,59,255);
 }
 
 
@@ -189,7 +189,7 @@ nav {
 /*FOOTER*/
 
 footer {
-    background-color: blue;
+    background-color: rgba(0,67,156,255);
 }
 
 .footer_ul a {
