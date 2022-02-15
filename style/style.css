@@ -159,7 +159,7 @@ nav {
     background-color: rgb(175, 175, 175);
 }
 
-.ps_plus_logo {
+.ps_plus_now_logo {
     width: 250px;
 }
 
@@ -168,4 +168,11 @@ nav {
 
 .section_7_main img {
     width: 100%;
+}
+
+
+/*Sezione 8*/
+
+.section_8_main {
+    background-color: rgb(11, 11, 56);
 }
