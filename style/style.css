@@ -9,6 +9,10 @@ body {
     font-size: 18px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /*HEADER*/
 
 /*Sony Black Bar*/
@@ -42,6 +46,15 @@ nav {
      font-size: 20px;
  }
 
+ .effects_button:hover {
+     box-shadow: 0 0 0 3px rgb(34, 34, 34);
+     border-radius: 2em;
+ }
+
+ .btn {
+    margin: 1.2px;
+ }
+
 
  /*Corpo Header*/
 
@@ -50,6 +63,7 @@ nav {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
+     margin-top: 120px;
  }
 
  .returnal_banner {
@@ -63,6 +77,11 @@ nav {
 
  .col_title {
     font-size: 35px;
+}
+
+.effects_button_danger:hover {
+    box-shadow: 0 0 0 3px rgba(196,58,14,255);
+    border-radius: 2em;
 }
 
 
@@ -90,6 +109,7 @@ nav {
      color: rgba(121,121,121,255);
  }
 
+
  /*Bottom*/
 .ps_5_img {
     width: 100%;
@@ -106,6 +126,11 @@ nav {
 
 .fixings_ps5 .col-4:hover {
     border-bottom: 3px solid rgb(1, 90, 255);
+}
+
+.effects_button_primary:hover {
+    box-shadow: 0 0 0 3px #0d6efd;
+    border-radius: 2em;
 }
 
 
@@ -144,6 +169,10 @@ nav {
     border-radius: 20px;
 }
 
+.row_pointer .col-6 {
+    cursor: pointer;
+}
+
 
 /*Sezione 5*/
 
@@ -162,6 +191,11 @@ nav {
     width: 250px;
 }
 
+.effects_button_grey:hover {
+    box-shadow: 0 0 0 3px rgb(231, 231, 231);
+    border-radius: 2em;
+}
+
 
 /*Sezione 7*/
 
@@ -174,6 +208,11 @@ nav {
 
 .section_8_main {
     background-color: rgba(22,28,59,255);
+}
+
+.effects_button_black:hover {
+    box-shadow: 0 0 0 3px rgb(14, 13, 13);
+    border-radius: 2em;
 }
 
 
